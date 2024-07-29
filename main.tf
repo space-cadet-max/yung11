@@ -7,3 +7,4 @@ resource "null_resource" "example" {
     command = "echo Hello, World!"
   }
 }
+
