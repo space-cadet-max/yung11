@@ -10,3 +10,4 @@ resource "aws_s3_bucket" "test_colab_bucket" {
     Name        = "Test-Colab"
     Environment = "Dev"
 }
+}
