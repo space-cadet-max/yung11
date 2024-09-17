@@ -5,4 +5,8 @@ provider "aws" {
 resource "aws_s3_bucket" "test_colab_bucket" {
   bucket = "test-colab"
   acl    = "private"
+
+  tags = {
+    Name        = "Test-Colab"
+    Environment = "Dev"
 }
